@@ -14,7 +14,7 @@ RUN cd /tmp \
 
 #build ipfixcol2 (using devel branch because of kafka support)
 RUN cd /tmp \
-&& git clone https://github.com/Jacfal/ipfixcol2.git \
+&& git clone https://github.com/FlowGuard/ipfixcol2.git \
 && cd ipfixcol2 \
 && git checkout devel \ 
 && mkdir build && cd build && cmake .. \ 
